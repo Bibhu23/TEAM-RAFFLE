@@ -4,6 +4,8 @@ import download6 from "../../assets/download(6).jpg"
 import download1 from "../../assets/download(1).jpg"
 import download3 from "../../assets/download(3).jpg"
 import download4 from "../../assets/download(4).jpg"
+import blogcover from "../../assets/blog-cover.jpeg"
+import './Homepage.css'
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -68,7 +70,20 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <div className='slogan'>
+                <p id='statement'>“The greatest threat to our planet is the belief that someone else will save it.”
+                </p>
+                <h3>– Robert Swan, Author
+
+                </h3>
+
+            </div>
+            <div className='resolution'>
+                <img src={blogcover} alt="" />
+                <p>Welcome to iRecycle.world, where our unwavering dedication to preserving our planet propels us to reshape the very essence of recycling. Here at iRecycle.world, we transcend the conventional approach to waste management; instead, we embark on a transformative journey aimed at instigating a worldwide revolution towards sustainability.</p>
+            </div>
         </div>
+
     );
 }
 export default Home
