@@ -1,0 +1,32 @@
+.slogan {
+    display: block;
+    margin: 18%;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.resolution {
+    height: 100vh;
+    background-color: #dadce3;
+    position: relative;
+}
+
+
+.resolution img {
+    width: 50%;
+    height: 400px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.resolution p {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 600px;
+    /* width: 40%; */
+}
