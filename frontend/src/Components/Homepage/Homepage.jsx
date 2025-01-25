@@ -5,6 +5,10 @@ import download1 from "../../assets/download(1).jpg"
 import download3 from "../../assets/download(3).jpg"
 import download4 from "../../assets/download(4).jpg"
 import blogcover from "../../assets/blog-cover.jpeg"
+import dryimage from "../../assets/dryimage.png"
+import wetimage from "../../assets/wetimage.jpg"
+import hazardous from "../../assets/hazardousimage.jpg"
+
 import './Homepage.css'
 import { useNavigate } from 'react-router-dom';
 
@@ -81,6 +85,18 @@ function Home() {
             <div className='resolution'>
                 <img src={blogcover} alt="" />
                 <p>Welcome to iRecycle.world, where our unwavering dedication to preserving our planet propels us to reshape the very essence of recycling. Here at iRecycle.world, we transcend the conventional approach to waste management; instead, we embark on a transformative journey aimed at instigating a worldwide revolution towards sustainability.</p>
+                <button>Start Recycling</button>
+            </div>
+            <div className='product'>
+                <div className='dry'>
+                    <img src={dryimage} alt="" />
+                </div>
+                <div className='wet'>
+                    <img src={wetimage} alt="" />
+                </div>
+                <div className='Hazardous'>
+                    <img src={hazardous} alt="" />
+                </div>
             </div>
         </div>
 
